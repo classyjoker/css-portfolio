@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@200&family=Sacramento&display=swap');
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    color: #40514E
+    
+}
+
+h1 {
+    font-family: 'Sacramento', cursive;
+    font-size: 4.625rem;
+    color: #66BFBF;
+    margin-top: 50px auto 0 auto;
+    line-height: 2;
+    
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+    padding: 10px;
+}
+
+h3 {
+font-family: 'Montserrat', sans-serif;
+color :#11999E
+}
+ 
+p {
+    line-height: 2;
+}
+
+.top-container {
+   
+    position: relative;
+    padding-top: 100px;
+    background-color: #e4f9f5;
+}
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+.middle-container {
+   margin: 100px 0;
+}
+
+
+.top-cloud {
+    position: absolute;
+    margin-left: 300px;
+     margin-bottom: 50px;
+}
+
+.bottom-cloud {
+    position: absolute;
+}
+
+a {
+    color: #11999E;
+}
+
+
+.skill-row {
+   margin: 100px auto 100px auto;
+    width: 50%;
+    text-align: left;
+    
+    
+    /* position: relative; */
+}
+
+.chess {
+    /* position: absolute; */
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.bikes {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+}
+
+/* .image-description-first {
+    clear: left;
+}
+.image-description-second {
+    clear: right;
+} */
+
+ hr {
+     border-style: dotted;
+     width: 10%;
+    border-top-style: none;
+    border-width: 20px;
+    color: #EAF6F6;
+}
+
+/* .intro {
+    overflow-wrap: break-word;
+} */
+
+.btn {
+
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 5px;
+        color: #EAF6F6;
+        font-family: serif;
+        font-size: 18px;
+        font-weight: 400;
+        padding: 9px;
+        background-color: #66BFBF;
+        border: solid #337FED 0;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+        transition: 1s
+}
+
+.btn:hover {
+    background-color: #EAF6F6;
+    color: #66BFBF;
+
+}
+
+.bottom-container {
+    background-color: #66BFBF;
+   padding: 50px 0 20px;
+   /* ba/ckground-color: #e4f9f5; */
+}
+
+a {
+    color: #378c91;
+    /* font-family: 'Montserrat', sans-serif; */
+    margin: 10px 20px;
+    text-decoration: none;
+
+}
+
+a:hover {
+    color: #EAF6F6;
+
+}
+
+.name {
+    color: white;
+    font-size: 0.5rem;
+    padding: 20px 0; 
+}
+
+.contact-message {
+    width: 40%;
+    margin: 40px auto 60px;
+}
